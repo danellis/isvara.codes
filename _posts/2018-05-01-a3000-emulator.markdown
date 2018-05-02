@@ -1,0 +1,14 @@
+---
+title:  "Acorn A3000 Emulator"
+categories: [programming]
+tags: [webarc]
+---
+WebArc is a project to build an emulator for an Acorn A3000 that runs in the browser.
+
+## Rust and WebAssembly
+
+I'd initially thought about writing the emulator in Typescript, but it always bothered me that the JavaScript runtime does not have any integer types. I considered a couple of other options (Scala.js, C via emscripten) before settling on compiling Rust to WebAssembly. Apart from the performance I should get out of it, Rust has some features particularly suited to this project, such as an integer add operation that tells you whether it overflowed—essential for implementing CPU status flags. The only slight drawback is that I've never written any Rust before, but I wasn't going to let that hold me back.
+
+Since I haven't yet figured out how to combine Rust's WebAssembly target with Typescript and Webpack, I'm building it to run natively first. Once it's doing something useful, I'll look again at the WebAssembly target.
+
+Follow along with development at https://twitch.tv/isvara.
