@@ -11,4 +11,4 @@ I'd initially thought about writing the emulator in Typescript, but it always bo
 
 Since I haven't yet figured out how to combine Rust's WebAssembly target with Typescript and Webpack, I'm building it to run natively first. Once it's doing something useful, I'll look again at the WebAssembly target.
 
-Follow along with development at https://twitch.tv/isvara.
+Follow along with development on [Twitch](https://twitch.tv/isvara).
