@@ -1,7 +1,7 @@
 ---
-title:  "Acorn A3000 Emulator"
-categories: [programming]
-tags: [webarc]
+title:  "Acorn A3000 (ARM) Emulator in Rust"
+categories: [webarc]
+tags: [programming, emulator, arm]
 ---
 WebArc is a project to build an emulator for an Acorn A3000 that runs in the browser.
 
